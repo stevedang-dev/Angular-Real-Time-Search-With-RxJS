@@ -1,0 +1,44 @@
+{
+    "[yaml]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 4,
+        "editor.autoIndent": false
+    },
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "editor.suggestSelection": "first",
+    "python.jediEnabled": false,
+    "workbench.colorTheme": "Cobalt2",
+    "git.enableSmartCommit": true,
+    "editor.insertSpaces": true,
+    "breadcrumbs.enabled": true,
+    "editor.detectIndentation": false,
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "[typescript]": {
+        "editor.formatOnSave": true,
+        "editor.tabSize": 4
+    },
+    "editor.tabSize": 4,
+    "editor.formatOnSave": true,
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "[scss]": {
+        "editor.formatOnSave": true,
+        "editor.tabSize": 4
+    },
+    "[css]": {
+        "editor.formatOnSave": true,
+        "editor.tabSize": 4
+    },
+    "prettier.tabWidth": 4
+}
