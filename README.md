@@ -3,6 +3,12 @@
 -   This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.2.
 -   DEMO: https://stevedang-dev.github.io/Angular-Real-Time-Search-With-RxJS/
 
+-   Package.json
+
+```
+"build": "ng build --base-href=https://stevedang-dev.github.io/Angular-Real-Time-Search-With-RxJS/",
+```
+
 ![image](demo0.png)
 ![image](demo.png)
 

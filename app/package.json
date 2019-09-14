@@ -4,7 +4,7 @@
     "scripts": {
         "ng": "ng",
         "start": "ng serve",
-        "build": "ng build --baseHref=https://stevedang-dev.github.io",
+        "build": "ng build --base-href=https://stevedang-dev.github.io/Angular-Real-Time-Search-With-RxJS/",
         "test": "ng test",
         "lint": "ng lint",
         "e2e": "ng e2e"
