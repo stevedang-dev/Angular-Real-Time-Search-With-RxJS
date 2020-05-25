@@ -5,7 +5,7 @@
 
 -   Package.json
 
-```
+``` json
 "build": "ng build --base-href=https://stevedang-dev.github.io/Angular-Real-Time-Search-With-RxJS/",
 ```
 
@@ -18,7 +18,7 @@
 
 ## 1. View template:
 
-```
+``` html
     <div class="top-content">
         <h3>Real Time Search with RxJS</h3>
         <p>Open the console to see logs</p>
@@ -46,7 +46,7 @@
 
 -   Import and API
 
-```
+``` ts
 import { Observable, of } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
 import { debounceTime, distinctUntilChanged, switchMap } from 'rxjs/operators';
@@ -60,7 +60,7 @@ queryUrl = '?search=';
 
 -   Search method:
 
-```
+``` ts
 search(terms: Observable<string>): any {
     console.log('%c SearchService', 'color: green; font-weight: bold');
     console.log(
@@ -84,7 +84,7 @@ search(terms: Observable<string>): any {
 
 -   Search Entries:
 
-```
+``` ts
 // searchEntries(term): makes a get request to our API endpoint with our search term, this gives us another observable
 searchEntries(term: string): Observable<object> {
     console.log(
@@ -108,7 +108,7 @@ searchEntries(term: string): Observable<object> {
 
 ## 3. Component:
 
-```
+``` ts
 console.log('%c AppComponent', 'color: green; font-weight: bold');
 this.searchTerm$.subscribe(inputData => {
     console.log('=> searchTerm$ inputData: ', inputData);
